@@ -1,2 +1,61 @@
-# Java-Lab-Assignment-2-java
-his program manages student records using OOP concepts in Java. It includes an abstract Person class, a Student class with grade calculation, an interface for CRUD operations, and a manager class to handle records. Users can add, update, delete, search, and view students.
+# 🌟 Student Management System (Java)
+
+This project implements a complete **Student Management System** using  
+**abstract classes, inheritance, interfaces, method overriding, overloading,  
+and polymorphism**.
+
+---
+
+## 🔵 Features
+- ➕ Add Student  
+- ❌ Delete Student  
+- ✏️ Update Student  
+- 🎯 Search Student  
+- 📜 View All Students  
+- 🅰 Automatic Grade Calculation  
+- 🚫 Duplicate Roll Number Prevention  
+- 🧠 OOP Concepts Fully Implemented  
+
+---
+
+## 🟣 Class Structure
+
+### 🔹 Person (abstract)
+- name  
+- email  
+- displayInfo() (abstract)
+
+### 🔹 Student (extends Person)
+- rollNo  
+- course  
+- marks  
+- grade  
+- Overloaded display methods  
+
+### 🔹 RecordActions (interface)
+- addStudent()  
+- deleteStudent()  
+- updateStudent()  
+- searchStudent()  
+- viewAllStudents()
+
+### 🔹 StudentManager (implements RecordActions)
+- Stores students  
+- Performs all CRUD operations  
+
+---
+
+## 🟢 How to Run
+
+1. Save file as **StudentManagementApp.java**  
+2. Open IntelliJ → New Project  
+3. Add file to `src`  
+4. Run the main method  
+5. Use menu options to manage records  
+
+---
+
+## 🟡 Author
+**Aryan Mishra**  
+B.Tech CSE  
+
